@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58D5FD861BD4BCE3002D8205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5FD851BD4BCE3002D8205 /* main.m */; };
+		58D5FD891BD4BCE3002D8205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5FD881BD4BCE3002D8205 /* AppDelegate.m */; };
+		58D5FD8C1BD4BCE3002D8205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5FD8B1BD4BCE3002D8205 /* ViewController.m */; };
+		58D5FD8F1BD4BCE3002D8205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D5FD8D1BD4BCE3002D8205 /* Main.storyboard */; };
+		58D5FD911BD4BCE3002D8205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D5FD901BD4BCE3002D8205 /* Assets.xcassets */; };
+		58D5FD941BD4BCE3002D8205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D5FD921BD4BCE3002D8205 /* LaunchScreen.storyboard */; };
+		58D5FD9F1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5FD9E1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.m */; };
+		58D5FDAA1BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5FDA91BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58D5FD9B1BD4BCE3002D8205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D5FD791BD4BCE3002D8205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D5FD801BD4BCE3002D8205;
+			remoteInfo = WolfCubLoopScrollView;
+		};
+		58D5FDA61BD4BCE3002D8205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D5FD791BD4BCE3002D8205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D5FD801BD4BCE3002D8205;
+			remoteInfo = WolfCubLoopScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58D5FD811BD4BCE3002D8205 /* WolfCubLoopScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolfCubLoopScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D5FD851BD4BCE3002D8205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58D5FD871BD4BCE3002D8205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58D5FD881BD4BCE3002D8205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58D5FD8A1BD4BCE3002D8205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58D5FD8B1BD4BCE3002D8205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58D5FD8E1BD4BCE3002D8205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58D5FD901BD4BCE3002D8205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58D5FD931BD4BCE3002D8205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58D5FD951BD4BCE3002D8205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D5FD9A1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolfCubLoopScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D5FD9E1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WolfCubLoopScrollViewTests.m; sourceTree = "<group>"; };
+		58D5FDA01BD4BCE3002D8205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D5FDA51BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolfCubLoopScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D5FDA91BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WolfCubLoopScrollViewUITests.m; sourceTree = "<group>"; };
+		58D5FDAB1BD4BCE3002D8205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D5FD7E1BD4BCE3002D8205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D5FD971BD4BCE3002D8205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D5FDA21BD4BCE3002D8205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58D5FD781BD4BCE3002D8205 = {
+			isa = PBXGroup;
+			children = (
+				58D5FD831BD4BCE3002D8205 /* WolfCubLoopScrollView */,
+				58D5FD9D1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests */,
+				58D5FDA81BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests */,
+				58D5FD821BD4BCE3002D8205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58D5FD821BD4BCE3002D8205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D5FD811BD4BCE3002D8205 /* WolfCubLoopScrollView.app */,
+				58D5FD9A1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.xctest */,
+				58D5FDA51BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58D5FD831BD4BCE3002D8205 /* WolfCubLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				58D5FD871BD4BCE3002D8205 /* AppDelegate.h */,
+				58D5FD881BD4BCE3002D8205 /* AppDelegate.m */,
+				58D5FD8A1BD4BCE3002D8205 /* ViewController.h */,
+				58D5FD8B1BD4BCE3002D8205 /* ViewController.m */,
+				58D5FD8D1BD4BCE3002D8205 /* Main.storyboard */,
+				58D5FD901BD4BCE3002D8205 /* Assets.xcassets */,
+				58D5FD921BD4BCE3002D8205 /* LaunchScreen.storyboard */,
+				58D5FD951BD4BCE3002D8205 /* Info.plist */,
+				58D5FD841BD4BCE3002D8205 /* Supporting Files */,
+			);
+			path = WolfCubLoopScrollView;
+			sourceTree = "<group>";
+		};
+		58D5FD841BD4BCE3002D8205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58D5FD851BD4BCE3002D8205 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58D5FD9D1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				58D5FD9E1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.m */,
+				58D5FDA01BD4BCE3002D8205 /* Info.plist */,
+			);
+			path = WolfCubLoopScrollViewTests;
+			sourceTree = "<group>";
+		};
+		58D5FDA81BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58D5FDA91BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.m */,
+				58D5FDAB1BD4BCE3002D8205 /* Info.plist */,
+			);
+			path = WolfCubLoopScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D5FD801BD4BCE3002D8205 /* WolfCubLoopScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D5FDAE1BD4BCE3002D8205 /* Build configuration list for PBXNativeTarget "WolfCubLoopScrollView" */;
+			buildPhases = (
+				58D5FD7D1BD4BCE3002D8205 /* Sources */,
+				58D5FD7E1BD4BCE3002D8205 /* Frameworks */,
+				58D5FD7F1BD4BCE3002D8205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WolfCubLoopScrollView;
+			productName = WolfCubLoopScrollView;
+			productReference = 58D5FD811BD4BCE3002D8205 /* WolfCubLoopScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58D5FD991BD4BCE3002D8205 /* WolfCubLoopScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D5FDB11BD4BCE3002D8205 /* Build configuration list for PBXNativeTarget "WolfCubLoopScrollViewTests" */;
+			buildPhases = (
+				58D5FD961BD4BCE3002D8205 /* Sources */,
+				58D5FD971BD4BCE3002D8205 /* Frameworks */,
+				58D5FD981BD4BCE3002D8205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D5FD9C1BD4BCE3002D8205 /* PBXTargetDependency */,
+			);
+			name = WolfCubLoopScrollViewTests;
+			productName = WolfCubLoopScrollViewTests;
+			productReference = 58D5FD9A1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58D5FDA41BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D5FDB41BD4BCE3002D8205 /* Build configuration list for PBXNativeTarget "WolfCubLoopScrollViewUITests" */;
+			buildPhases = (
+				58D5FDA11BD4BCE3002D8205 /* Sources */,
+				58D5FDA21BD4BCE3002D8205 /* Frameworks */,
+				58D5FDA31BD4BCE3002D8205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D5FDA71BD4BCE3002D8205 /* PBXTargetDependency */,
+			);
+			name = WolfCubLoopScrollViewUITests;
+			productName = WolfCubLoopScrollViewUITests;
+			productReference = 58D5FDA51BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58D5FD791BD4BCE3002D8205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WolfCub;
+				TargetAttributes = {
+					58D5FD801BD4BCE3002D8205 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					58D5FD991BD4BCE3002D8205 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 58D5FD801BD4BCE3002D8205;
+					};
+					58D5FDA41BD4BCE3002D8205 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 58D5FD801BD4BCE3002D8205;
+					};
+				};
+			};
+			buildConfigurationList = 58D5FD7C1BD4BCE3002D8205 /* Build configuration list for PBXProject "WolfCubLoopScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58D5FD781BD4BCE3002D8205;
+			productRefGroup = 58D5FD821BD4BCE3002D8205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D5FD801BD4BCE3002D8205 /* WolfCubLoopScrollView */,
+				58D5FD991BD4BCE3002D8205 /* WolfCubLoopScrollViewTests */,
+				58D5FDA41BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58D5FD7F1BD4BCE3002D8205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D5FD941BD4BCE3002D8205 /* LaunchScreen.storyboard in Resources */,
+				58D5FD911BD4BCE3002D8205 /* Assets.xcassets in Resources */,
+				58D5FD8F1BD4BCE3002D8205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D5FD981BD4BCE3002D8205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D5FDA31BD4BCE3002D8205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D5FD7D1BD4BCE3002D8205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D5FD8C1BD4BCE3002D8205 /* ViewController.m in Sources */,
+				58D5FD891BD4BCE3002D8205 /* AppDelegate.m in Sources */,
+				58D5FD861BD4BCE3002D8205 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D5FD961BD4BCE3002D8205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D5FD9F1BD4BCE3002D8205 /* WolfCubLoopScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D5FDA11BD4BCE3002D8205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D5FDAA1BD4BCE3002D8205 /* WolfCubLoopScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58D5FD9C1BD4BCE3002D8205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D5FD801BD4BCE3002D8205 /* WolfCubLoopScrollView */;
+			targetProxy = 58D5FD9B1BD4BCE3002D8205 /* PBXContainerItemProxy */;
+		};
+		58D5FDA71BD4BCE3002D8205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D5FD801BD4BCE3002D8205 /* WolfCubLoopScrollView */;
+			targetProxy = 58D5FDA61BD4BCE3002D8205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58D5FD8D1BD4BCE3002D8205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D5FD8E1BD4BCE3002D8205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58D5FD921BD4BCE3002D8205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D5FD931BD4BCE3002D8205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58D5FDAC1BD4BCE3002D8205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58D5FDAD1BD4BCE3002D8205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58D5FDAF1BD4BCE3002D8205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WolfCubLoopScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfcub.WolfCubLoopScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58D5FDB01BD4BCE3002D8205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WolfCubLoopScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfcub.WolfCubLoopScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58D5FDB21BD4BCE3002D8205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WolfCubLoopScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfcub.WolfCubLoopScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WolfCubLoopScrollView.app/WolfCubLoopScrollView";
+			};
+			name = Debug;
+		};
+		58D5FDB31BD4BCE3002D8205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WolfCubLoopScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfcub.WolfCubLoopScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WolfCubLoopScrollView.app/WolfCubLoopScrollView";
+			};
+			name = Release;
+		};
+		58D5FDB51BD4BCE3002D8205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WolfCubLoopScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfcub.WolfCubLoopScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WolfCubLoopScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		58D5FDB61BD4BCE3002D8205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WolfCubLoopScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfcub.WolfCubLoopScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WolfCubLoopScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58D5FD7C1BD4BCE3002D8205 /* Build configuration list for PBXProject "WolfCubLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D5FDAC1BD4BCE3002D8205 /* Debug */,
+				58D5FDAD1BD4BCE3002D8205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D5FDAE1BD4BCE3002D8205 /* Build configuration list for PBXNativeTarget "WolfCubLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D5FDAF1BD4BCE3002D8205 /* Debug */,
+				58D5FDB01BD4BCE3002D8205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58D5FDB11BD4BCE3002D8205 /* Build configuration list for PBXNativeTarget "WolfCubLoopScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D5FDB21BD4BCE3002D8205 /* Debug */,
+				58D5FDB31BD4BCE3002D8205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58D5FDB41BD4BCE3002D8205 /* Build configuration list for PBXNativeTarget "WolfCubLoopScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D5FDB51BD4BCE3002D8205 /* Debug */,
+				58D5FDB61BD4BCE3002D8205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58D5FD791BD4BCE3002D8205 /* Project object */;
+}
